@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="background-color: grey;"><h1>register</h1></header>
+    <form method="get"> <!--  it can be post and get is by defaul  -->
+        First Name: <input type="text" name="Firstname"><br>
+        Last Name: <input type="text"name="lastname"><br>
+        Email: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" min="6"><br>
+        Birth Date:<input type="date" name="birthday"><br>
+        
+        Gender: 
+        <input type="radio" name="gender" value="Male">Male <br>
+        <input type="radio" name="gender" value="female">Female <br>
+        <input type="radio" name="gender" value="other">Other <br>
+       pets: 
+        <input type="checkbox" name="pet">Cats <br>
+        <input type="checkbox" name="Dog">Dogs <br>
+
+        Cars:
+        <select name="cars">
+            <option value="Audi" >Audi</option>
+            <option value="Toyota">Toyota</option>
+        </select> <br>
+
+        <input type="submit" value="Register"> <br>
+        <!-- <input type="submit"><br> -->
+        <input type="reset">
+    </form>
+    <script src="file.js"></script>
+</body>
+</html>
